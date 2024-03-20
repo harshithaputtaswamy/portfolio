@@ -33,14 +33,14 @@ const Header = () => {
                     <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' href='#'>
-                                Home
+                                About
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink href='#'>Features</MDBNavbarLink>
+                            <MDBNavbarLink href='#'>Projects</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+                            <MDBNavbarLink href='#'>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
                     </MDBNavbarNav>
                 </MDBCollapse>
