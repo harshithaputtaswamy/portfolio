@@ -4,9 +4,9 @@ import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 const Contact = () => {
     return (
-        <div>
+        <div className="mt-5">
             <div className="d-flex justify-content-start">
-                <h4>Contact</h4>
+                <h5>Contact</h5>
             </div>
             <div className="container bg-white py-2 py-md-4 px-3 shadow-3">
                 <div className="pb-3 pb-md-4">

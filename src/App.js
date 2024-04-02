@@ -9,15 +9,15 @@ import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-        <div className="container w-100 w-md-75">
-
-        <Header/>
-        <Profile/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
+        <div className="container px-lg-5">
+            <div className="px-xl-5">
+                <Header/>
+                <Profile/>
+                <Projects/>
+                <Contact/>
+                <Footer/>
+            </div>
         </div>
-
     </div>
   );
 }
