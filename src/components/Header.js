@@ -9,16 +9,22 @@ import {
     MDBNavbarLink,
     MDBNavbarToggler,
     MDBCollapse
-  } from 'mdb-react-ui-kit';
+} from 'mdb-react-ui-kit';
+
+// const styles = {
+//     a: focus {
+
+//     }
+// }
 
 
 const Header = () => {
     const [openNav, setOpenNav] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' light>
+        <MDBNavbar expand='lg' bgColor='white' sticky>
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#'>Harshitha Puttaswamy</MDBNavbarBrand>
+                <MDBNavbarBrand href='#' onfocus="this.hideFocus=true;">Harshitha Puttaswamy</MDBNavbarBrand>
                 <MDBNavbarToggler
                     type='button'
                     data-target='#navbarText'
