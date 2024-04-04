@@ -29,7 +29,7 @@ const projectData = [
         title: 'Optical Character Recognition with ResNet50',
         description: "Built a Resnet model using Keras framework that can recognize a character present on the screen",
         link: '',
-        subject: 'Reinforecement Learning'
+        subject: 'Convolutional Neural Networks'
     },
     { 
         image_url: require('./images/projects/CNN.png'),
@@ -52,7 +52,7 @@ const projectData = [
         description: "Modeled a web application using Django framework to rent cars online where company can list their cars. Customers can book more \
         than 1 car from the same of a different company",
         link: '',
-        subject: 'Web Development Project'
+        subject: 'FullStack Development Project'
     },
     { 
         image_url: require('./images/projects/YES.png'),
@@ -60,7 +60,7 @@ const projectData = [
         description: "A platform where all the club members can see the details of the upcoming events, members of the club \
         and also previous events summary. MERN stack was used to achieve the same",
         link: '',
-        subject: 'Group Project'
+        subject: 'FullStack Development Project'
     },
     
 ]

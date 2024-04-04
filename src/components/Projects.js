@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {forwardRef} from 'react';
 import {
   MDBCard,
   MDBCardImage,
@@ -23,10 +23,10 @@ const styles = {
 }
 
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
     return (
-        <div className="mt-5">
-            <div className="d-flex justify-content-start">
+        <div className="pt-5" ref={ref}>
+            <div className="d-flex justify-content-start pt-3">
                 <h5>Projects and Works</h5>
             </div>
             <MDBRow className='row-cols-1 row-cols-md-3 g-4 mt-1'>
@@ -42,13 +42,13 @@ const Projects = () => {
                                     position='top'
                                 />
                                     <MDBCardBody>
-                                        <a href={project.link} style={styles.a}>
+                                        {/* <a href={project.link} style={styles.a}> */}
                                             <MDBCardTitle style={styles.h5}>{project.title}</MDBCardTitle>
                                             <p>{project.subject}</p>
                                             <MDBCardText style={styles.p}>
                                             {project.description}
                                             </MDBCardText>
-                                        </a>
+                                        {/* </a> */}
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -58,6 +58,6 @@ const Projects = () => {
             </MDBRow>
         </div>
     )
-}
+});
 
 export default Projects;

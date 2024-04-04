@@ -1,10 +1,10 @@
-import React from 'react';
+import React , {forwardRef} from 'react';
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
     return (
-        <div className="mt-5">
+        <div className="mt-5" ref={ref}>
             <div className="d-flex justify-content-start">
                 <h5>Contact</h5>
             </div>
@@ -30,6 +30,6 @@ const Contact = () => {
             </div>
         </div>
     )
-}
+});
 
 export default Contact;

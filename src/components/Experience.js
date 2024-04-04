@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {forwardRef} from 'react';
 import {
   MDBCard,
   MDBCardBody,
@@ -26,10 +26,10 @@ const styles = {
 }
 
 
-const Experience = () => {
+const Experience = forwardRef((props, ref) => {
     return (
-        <div className="mt-5">
-            <div className="d-flex justify-content-start">
+        <div className="pt-5" ref={ref}>
+            <div className="d-flex justify-content-start pt-3">
                 <h5>Work Experience</h5>
             </div>
             <MDBRow className='row-cols-1 g-4 mt-1'>
@@ -63,6 +63,6 @@ const Experience = () => {
             </MDBRow>
         </div>
     )
-}
+});
 
 export default Experience;
