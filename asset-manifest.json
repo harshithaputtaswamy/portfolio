@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2202bbb1.css",
-    "main.js": "/portfolio/static/js/main.530b8543.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "main.js": "/portfolio/static/js/main.a6cbd127.js",
+    "static/js/453.32bc8d24.chunk.js": "/portfolio/static/js/453.32bc8d24.chunk.js",
     "static/media/car.png": "/portfolio/static/media/car.a1f7808c264dfc13188f.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/autokube.png": "/portfolio/static/media/autokube.fcc322f5fdd9bc047325.png",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/MAB.png": "/portfolio/static/media/MAB.9ad6c67a50f207195af0.png",
+    "static/media/college.jpeg": "/portfolio/static/media/college.f8ac8fd579f25b877a54.jpeg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.8562081a003aaf87c5a9.pdf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/CNN.png": "/portfolio/static/media/CNN.c95fb89f877ae9cb3a45.png",
     "static/media/ResNet50.png": "/portfolio/static/media/ResNet50.247d3e8a428b33cbb338.png",
@@ -20,11 +22,11 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/portfolio/index.html",
     "main.2202bbb1.css.map": "/portfolio/static/css/main.2202bbb1.css.map",
-    "main.530b8543.js.map": "/portfolio/static/js/main.530b8543.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.a6cbd127.js.map": "/portfolio/static/js/main.a6cbd127.js.map",
+    "453.32bc8d24.chunk.js.map": "/portfolio/static/js/453.32bc8d24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2202bbb1.css",
-    "static/js/main.530b8543.js"
+    "static/js/main.a6cbd127.js"
   ]
 }
