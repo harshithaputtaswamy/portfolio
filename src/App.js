@@ -31,7 +31,7 @@ function App() {
                     <Publication ref={pubRef}/>
                     <Projects ref={projectRef}/>
                     <Contact ref={contactRef}/>
-                    <Footer/>
+                    {/* <Footer/> */}
                 </div>
             </div>
         </div>

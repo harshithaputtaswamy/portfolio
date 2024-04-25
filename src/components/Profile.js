@@ -12,7 +12,7 @@ const Profile = forwardRef((props, ref) => {
                         <div className="col-md-4">
                             <div>
                                 <img
-                                    src='https://firebasestorage.googleapis.com/v0/b/porfolio-10758.appspot.com/o/IMG_20190304_150553.jpg?alt=media&token=0fc7a821-92b2-4c53-b678-685b2f61ed75'
+                                    src={require('../images/profile.jpg')}
                                     style={{borderRadius: "50%", height: 200, width:200}}
                                     alt=''
                                 />
