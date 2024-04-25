@@ -40,7 +40,7 @@ const Publication = forwardRef((props, ref) => {
                                 <MDBCard className='h-100'>
                                     <MDBCardBody style={{textAlign: "left"}}>
                                         <MDBCardTitle style={styles.h5}><b>{publication.title}, <small>{publication.year}</small></b></MDBCardTitle>
-                                        <p style={styles.tech}>{publication.authors}, {publication.published_at}, <a href={publication.doi}>{publication.doi}</a></p>
+                                        <p style={styles.tech}>{publication.authors}, {publication.published_at}, <a href={publication.doi} target="_blank">{publication.doi}</a></p>
                                         <MDBCardText style={styles.p}>
                                             {
                                                 publication.description.map((desc, idx) => {
