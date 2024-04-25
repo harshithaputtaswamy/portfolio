@@ -11,7 +11,7 @@ const projectData = [
         image_url: require('./images/projects/CAO.png'),
         title: 'Design and Implementation of Instruction Pipeline of Processors',
         description: "Implemented C functions to process a given instruction through the 5-stage pipeline of computer processors \
-        with support for Branch Table Buffer (BTB), Branch Prediction and Out-of-order processing of instructions",
+        with support for Branch Table Buffer (BTB), Branch Prediction and Out-of-order processing of instructions.",
         link: '',
         subject: 'Computer Architechture'
     },
@@ -27,7 +27,7 @@ const projectData = [
     { 
         image_url: require('./images/projects/ResNet50.png'),
         title: 'Optical Character Recognition with ResNet50',
-        description: "Built a Resnet model using Keras framework that can recognize a character present on the screen",
+        description: "Built a Resnet model using Keras framework that can recognize a character present on the screen.",
         link: '',
         subject: 'Convolutional Neural Networks'
     },
@@ -35,7 +35,7 @@ const projectData = [
         image_url: require('./images/projects/CNN.png'),
         title: 'Gender recognition Android app',
         description: "Worked in a team of 3 to create a web application using Google Colab and a dataset from Kaggle \
-        to detect gender of a given image, achieved 96% accuracy which was presented in front of 100+ students and faculty members",
+        to detect gender of a given image, achieved 96% accuracy which was presented in front of 100+ students and faculty members.",
         link: '',
         subject: 'Convolutional Neural Networks'
     },
@@ -50,7 +50,7 @@ const projectData = [
         image_url: require('./images/projects/car.png'),
         title: 'Online Car Rental System website',
         description: "Modeled a web application using Django framework to rent cars online where company can list their cars. Customers can book more \
-        than 1 car from the same of a different company",
+        than 1 car from the same of a different company.",
         link: '',
         subject: 'FullStack Development Project'
     },
@@ -58,7 +58,7 @@ const projectData = [
         image_url: require('./images/projects/YES.png'),
         title: 'Developed a Web App for the YES!+ club of BIT',
         description: "A platform where all the club members can see the details of the upcoming events, members of the club \
-        and also previous events summary. MERN stack was used to achieve the same",
+        and also previous events summary. MERN stack was used to achieve the same.",
         link: '',
         subject: 'FullStack Development Project'
     },
