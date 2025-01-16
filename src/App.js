@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header' ;
+import Header from './components/Header';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -20,17 +20,17 @@ function App() {
 
     return (
         <div className="App">
-            <div style={{position: 'absolute', width: '100%', height: '500px'}}>
-                <img src={College} width="100%" height="100%" style={{objectFit: 'cover'}}/>
+            <div style={{ position: 'absolute', width: '100%', height: '500px' }}>
+                <img src={College} width="100%" height="100%" style={{ objectFit: 'cover' }} />
             </div>
-            <div className="container px-lg-5" style={{zIndex: 1, position: "relative"}}>
+            <div className="container px-lg-5" style={{ zIndex: 1, position: "relative" }}>
                 <div className="px-xl-5">
-                    <Header profileRef={profileRef} expRef={expRef} pubRef={pubRef} projectRef={projectRef} contactRef={contactRef}/>
-                    <Profile ref={profileRef}/>
-                    <Experience ref={expRef}/>
-                    <Publication ref={pubRef}/>
-                    <Projects ref={projectRef}/>
-                    <Contact ref={contactRef}/>
+                    <Header profileRef={profileRef} expRef={expRef} pubRef={pubRef} projectRef={projectRef} contactRef={contactRef} />
+                    <Profile ref={profileRef} />
+                    <Projects ref={projectRef} />
+                    <Experience ref={expRef} />
+                    <Publication ref={pubRef} />
+                    <Contact ref={contactRef} />
                     {/* <Footer/> */}
                 </div>
             </div>

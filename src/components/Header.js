@@ -12,7 +12,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 
-const Header = ({profileRef, expRef, pubRef, projectRef, contactRef}) => {
+const Header = ({ profileRef, expRef, pubRef, projectRef, contactRef }) => {
     const [openNav, setOpenNav] = useState(false);
 
     return (
@@ -26,25 +26,25 @@ const Header = ({profileRef, expRef, pubRef, projectRef, contactRef}) => {
                     aria-expanded='false'
                     aria-label='Toggle navigation'
                     onClick={() => setOpenNav(!openNav)}
-                    >
+                >
                     <MDBIcon icon='bars' fas />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={openNav}>
                     <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
                         <MDBNavbarItem>
-                            <MDBNavbarLink onClick={() => {profileRef.current.scrollIntoView({ behavior: "smooth" })}}>About</MDBNavbarLink>
+                            <MDBNavbarLink onClick={() => { profileRef.current.scrollIntoView({ behavior: "smooth" }) }}>About</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink onClick={() => {expRef.current.scrollIntoView({ behavior: "smooth" })}}>Experience</MDBNavbarLink>
+                            <MDBNavbarLink onClick={() => { projectRef.current.scrollIntoView({ behavior: "smooth" }) }}>Projects</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink onClick={() => {pubRef.current.scrollIntoView({ behavior: "smooth" })}}>Publication</MDBNavbarLink>
+                            <MDBNavbarLink onClick={() => { expRef.current.scrollIntoView({ behavior: "smooth" }) }}>Experience</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink onClick={() => {projectRef.current.scrollIntoView({ behavior: "smooth" })}}>Projects</MDBNavbarLink>
+                            <MDBNavbarLink onClick={() => { pubRef.current.scrollIntoView({ behavior: "smooth" }) }}>Publications</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink onClick={() => {contactRef.current.scrollIntoView({ behavior: "smooth" })}}>Contact</MDBNavbarLink>
+                            <MDBNavbarLink onClick={() => { contactRef.current.scrollIntoView({ behavior: "smooth" }) }}>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
                     </MDBNavbarNav>
                 </MDBCollapse>

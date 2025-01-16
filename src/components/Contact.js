@@ -1,4 +1,4 @@
-import React , {forwardRef} from 'react';
+import React, { forwardRef } from 'react';
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 import Footer from './Footer';
 
@@ -25,10 +25,10 @@ const Contact = forwardRef((props, ref) => {
                     <MDBIcon fab icon='google-scholar' size='2x' />
                 </MDBBtn>
 
-                <MDBBtn className='m-2' floating style={{ backgroundColor: '#55acee' }} href='mailto:hputtaswamy@binghamton.edu'>
+                <MDBBtn className='m-2' floating style={{ backgroundColor: '#55acee' }} href='mailto:harshi2680@gmail.com'>
                     <MDBIcon fab icon='at' size='2x' />
                 </MDBBtn>
-                <Footer/>
+                <Footer />
             </div>
         </div>
     )

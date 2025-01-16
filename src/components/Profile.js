@@ -1,4 +1,4 @@
-import React , {forwardRef} from 'react';
+import React, { forwardRef } from 'react';
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 import resume from '../assets/resume.pdf';
 
@@ -13,7 +13,7 @@ const Profile = forwardRef((props, ref) => {
                             <div>
                                 <img
                                     src={require('../images/profile.jpg')}
-                                    style={{borderRadius: "50%", height: 200, width:200}}
+                                    style={{ borderRadius: "50%", height: 220, width: 210 }}
                                     alt=''
                                 />
                             </div>
@@ -30,7 +30,7 @@ const Profile = forwardRef((props, ref) => {
                                     <MDBIcon fab icon='google-scholar' size='2x' />
                                 </MDBBtn>
 
-                                <MDBBtn className='m-1' floating style={{ backgroundColor: '#55acee' }} href='mailto:hputtaswamy@binghamton.edu'>
+                                <MDBBtn className='m-1' floating style={{ backgroundColor: '#55acee' }} href='mailto:harshi2680@gmail.com'>
                                     <MDBIcon fab icon='at' size='2x' />
                                 </MDBBtn>
                             </div>
@@ -38,12 +38,12 @@ const Profile = forwardRef((props, ref) => {
                         <div className="col-md-6 m-0 my-4">
                             <div className='text-start'>
                                 <h4>Harshitha Puttaswamy</h4>
-                                <h6>Student ● Binghamton University ● Learner</h6>
-                                <a href={resume} target="_blank"><MDBBtn color='success' className='mt-3'>DOWNLOAD RESUME</MDBBtn></a>
+                                <h6>Tech Enthusiast ● MS in CS at Binghamton University ● Passionate About Merging Research & Practice</h6>
+                                <a href={resume} target="_blank"><MDBBtn color='success' className='mt-3'>VIEW RESUME</MDBBtn></a>
                                 <p className='mt-3'><MDBIcon icon='graduation-cap' className='me-2 text-success' /><b>Experience Level : </b>2 years</p>
                                 <p className='mt-3'><MDBIcon icon='lightbulb' className='me-2 text-warning' /><b> Interested In : </b>Technology, Computer Science, Astronomy, Philanthropy</p>
-                                <p className='mt-3'><MDBIcon icon='code' className='me-2 text-info' /><b>Technologies : </b>Python, C/CPP, Javascript</p>
-                                <p className='mt-3'><MDBIcon icon='cubes' className='me-2 text-danger' /><b> Frameworks : </b>Tensorflow, Keras, MERN Stack, Django, CI/CD, Pytest, SQL</p>
+                                <p className='mt-3'><MDBIcon icon='code' className='me-2 text-info' /><b>Technologies : </b>Python, C, Javascript, TypeScript</p>
+                                <p className='mt-3'><MDBIcon icon='cubes' className='me-2 text-danger' /><b> Frameworks : </b>Kubernetes, Firebase, Firestore, Django, MERN Stack, CI/CD, Pytest, SQL, PSQl, Tensorflow, Keras</p>
                             </div>
                         </div>
                     </div>

@@ -1,12 +1,12 @@
-import React , {forwardRef} from 'react';
+import React, { forwardRef } from 'react';
 import {
-  MDBCard,
-  MDBCardImage,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBRow,
-  MDBCol
+    MDBCard,
+    MDBCardImage,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText,
+    MDBRow,
+    MDBCol
 } from 'mdb-react-ui-kit';
 import projectData from '../projectData';
 
@@ -15,7 +15,8 @@ const styles = {
         color: "inherit"
     },
     p: {
-        fontSize: "small"
+        fontSize: "small",
+        textAlign: "justify"
     },
     h5: {
         fontSize: "1rem"
@@ -32,22 +33,31 @@ const Projects = forwardRef((props, ref) => {
             <MDBRow className='row-cols-1 row-cols-md-3 g-4 mt-1'>
                 {
                     projectData.map((project, idx) => {
-                        return(
+                        return (
                             <MDBCol>
                                 <MDBCard className='h-100'>
-                                <MDBCardImage
-                                    src={project.image_url}
-                                    style={{height: '30vh'}}
-                                    alt='...'
-                                    position='top'
-                                />
+                                    <MDBCardImage
+                                        src={project.image_url}
+                                        style={{ height: '30vh' }}
+                                        alt='...'
+                                        position='top'
+                                    />
                                     <MDBCardBody>
                                         {/* <a href={project.link} style={styles.a}> */}
-                                            <MDBCardTitle style={styles.h5}>{project.title}</MDBCardTitle>
-                                            <p>{project.subject}</p>
-                                            <MDBCardText style={styles.p}>
-                                            {project.description}
-                                            </MDBCardText>
+                                        <MDBCardTitle style={styles.h5}>{project.title}</MDBCardTitle>
+                                        <p>{project.subject}</p>
+                                        <MDBCardText style={styles.p}>
+                                            {
+                                                project.description.split(". ").map((desc, idx) => {
+                                                    return (
+                                                        <li>
+                                                            {desc}
+                                                        </li>
+                                                    )
+                                                })
+
+                                            }
+                                        </MDBCardText>
                                         {/* </a> */}
                                     </MDBCardBody>
                                 </MDBCard>

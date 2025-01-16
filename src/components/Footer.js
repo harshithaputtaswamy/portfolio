@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <MDBFooter className='text-center text-lg-left'>
             <div className='text-center p-3'>
-                Please feel free to get in touch via email at hputtaswamy@binghamton.edu<br/>
+                Please feel free to get in touch via email at harshi2680@gmail.com<br />
                 &copy; {new Date().getFullYear()} Harshitha Puttaswamy
             </div>
         </MDBFooter>

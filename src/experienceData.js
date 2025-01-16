@@ -3,7 +3,7 @@ const experienceData = [
         "title": "Grading Assistant",
         "company": "Binghamton University",
         "startDate": "January 2024",
-        "endDate": "Present",
+        "endDate": "May 2024",
         "location": "Binghamton, NY, USA",
         "description": [
             "Graded programming assignments, projects, quizzes, and exams for 55 undergraduate and graduate students in the Machine Learning course",
@@ -29,8 +29,8 @@ const experienceData = [
             and accelerating the review process hence saving 50% of time for the entire team",
             "Facilitated automated merging of pull requests through adding testing pipelines and simplified code deployment to \
             servers"
-            ],
-        "tech": "Django, Angular, PostgreSQL, Pytest, Github Actions"
+        ],
+        "tech": "TypeScript, Python, Django, Angular, PostgreSQL, Pytest, Github Actions"
     }
 ];
 
