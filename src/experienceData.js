@@ -13,7 +13,7 @@ const experienceData = [
         "tech": "Machine Learning Algorithms"
     },
     {
-        "title": "Back End Developer",
+        "title": "Back End Developer, Internship",
         "company": "Fyle Technologies Pvt Ltd",
         "startDate": "March 2022",
         "endDate": "December 2022",
